@@ -1,0 +1,1 @@
+ansible-playbook -i inventory ubuntu1804_instal_docker.yml -u alex -k --become
