@@ -1,0 +1,1 @@
+docker run -it  -d -v $(pwd):/config --name ss-server --net=host -d hitian/ss ss-server -c /config/server.json -u --fast-open --plugin obfs-server --plugin-opts "obfs=tls"
